@@ -36,7 +36,9 @@
 
 
     <style>
-        *, *::before, *::after {
+        *:not(.fa):not(.fas):not(.far):not(.fal):not(.fad):not(.fab):not([class*="fa-"]),
+        *:not(.fa):not(.fas):not(.far):not(.fal):not(.fad):not(.fab):not([class*="fa-"])::before,
+        *:not(.fa):not(.fas):not(.far):not(.fal):not(.fad):not(.fab):not([class*="fa-"])::after {
             font-family: 'Courier New', Courier, monospace;
         }
 
